@@ -19,6 +19,7 @@
 - (instancetype) init {
   if (self = [super init]) {
     _person = [[Person alloc] initWithIdentifier: @"1" name: @"Anson"];
+    NSLog(@"person %@", _person);
   }
   
   return self;
