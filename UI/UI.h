@@ -16,4 +16,4 @@ FOUNDATION_EXPORT const unsigned char UIVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <UI/PublicHeader.h>
 
-
+#import <UI/UIClass.h>
