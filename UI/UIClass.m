@@ -8,7 +8,7 @@
 
 #import "UIClass.h"
 
-#import <Core/Person.h>
+#import <Core/Core.h>
 
 @interface UIClass()
 @property (nonatomic, strong) Person *person;
