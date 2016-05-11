@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D81B28881CE329E6005EB19C /* UI.h in Headers */ = {isa = PBXBuildFile; fileRef = D81B28871CE329E6005EB19C /* UI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D81B28911CE329F9005EB19C /* UIClass.h in Headers */ = {isa = PBXBuildFile; fileRef = D81B288F1CE329F9005EB19C /* UIClass.h */; };
+		D81B28911CE329F9005EB19C /* UIClass.h in Headers */ = {isa = PBXBuildFile; fileRef = D81B288F1CE329F9005EB19C /* UIClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D81B28921CE329F9005EB19C /* UIClass.m in Sources */ = {isa = PBXBuildFile; fileRef = D81B28901CE329F9005EB19C /* UIClass.m */; };
 		D81B28941CE32A69005EB19C /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D81B28931CE32A69005EB19C /* Core.framework */; };
 /* End PBXBuildFile section */
