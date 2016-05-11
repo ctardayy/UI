@@ -8,6 +8,19 @@
 
 #import "UIClass.h"
 
+#import <Core/Person.h>
+
+@interface UIClass()
+@property (nonatomic, strong) Person *person;
+@end
+
 @implementation UIClass
 
+- (instancetype) init {
+  if (self = [super init]) {
+    _person = [[Person alloc] initWithIdentifier: @"1" name: @"Anson"];
+  }
+  
+  return self;
+}
 @end
