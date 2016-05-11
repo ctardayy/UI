@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		D81B28881CE329E6005EB19C /* UI.h in Headers */ = {isa = PBXBuildFile; fileRef = D81B28871CE329E6005EB19C /* UI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D81B28911CE329F9005EB19C /* UIClass.h in Headers */ = {isa = PBXBuildFile; fileRef = D81B288F1CE329F9005EB19C /* UIClass.h */; };
+		D81B28921CE329F9005EB19C /* UIClass.m in Sources */ = {isa = PBXBuildFile; fileRef = D81B28901CE329F9005EB19C /* UIClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D81B28841CE329E6005EB19C /* UI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D81B28871CE329E6005EB19C /* UI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UI.h; sourceTree = "<group>"; };
 		D81B28891CE329E6005EB19C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D81B288F1CE329F9005EB19C /* UIClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIClass.h; sourceTree = "<group>"; };
+		D81B28901CE329F9005EB19C /* UIClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +52,8 @@
 			children = (
 				D81B28871CE329E6005EB19C /* UI.h */,
 				D81B28891CE329E6005EB19C /* Info.plist */,
+				D81B288F1CE329F9005EB19C /* UIClass.h */,
+				D81B28901CE329F9005EB19C /* UIClass.m */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -60,6 +66,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D81B28881CE329E6005EB19C /* UI.h in Headers */,
+				D81B28911CE329F9005EB19C /* UIClass.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D81B28921CE329F9005EB19C /* UIClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
